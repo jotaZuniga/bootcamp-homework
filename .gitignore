@@ -3,3 +3,6 @@
 
 #compiled
 /dist
+
+#docker
+.dockerignore
