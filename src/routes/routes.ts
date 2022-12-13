@@ -64,7 +64,7 @@ router.get('/findMovie/:name', async (req: Request, res: Response, next) => {
 router.post('/add/:name', (req: Request, res: Response) => {
   const name = req.params.name;
   res.setHeader('Content-Type', 'application/json');
-  return res.json({method: req.method, message: `Adding pokemon: ${name}`});
+  return res.json({method: req.method, message: `Adding movie: ${name}`});
 });
 
 router.delete('/:id', (req: Request, res: Response) => {
